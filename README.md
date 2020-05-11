@@ -33,11 +33,11 @@ sequintes comandos:
 
 ```bash
 $ docker build -t servidor_flask .
-```
-
-```bash
 $ docker run -d -p 5000:5000 servidor_flask
 ```
 
 Desta maneira, o servidor estará rodando em uma imagem do Docker ese comunicando com 
 sua máquina através da porta 5000.
+
+**P.S.**: Para o programa funcionar você precisar colocar o seu token da api no arquivo *utils.py* 
+dentro do diretório *database*
