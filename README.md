@@ -29,14 +29,14 @@ Após a instalação, o servidor pode ser inicializado com o comando:
 $ python entry_point.py
 ```
 Você também pode rodar este servidor utilizando o docker realizando os
-sequintes comandos:
+seguintes comandos:
 
 ```bash
 $ docker build -t servidor_flask .
 $ docker run -d -p 5000:5000 servidor_flask
 ```
 
-Desta maneira, o servidor estará rodando em uma imagem do Docker ese comunicando com 
+Desta maneira, o servidor estará rodando em uma imagem do Docker e se comunicando com 
 sua máquina através da porta 5000.
 
 **P.S.**: Para o programa funcionar você precisar colocar o seu token da api no arquivo *utils.py* 
